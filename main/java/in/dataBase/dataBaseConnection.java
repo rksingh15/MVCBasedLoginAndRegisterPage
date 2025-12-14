@@ -11,7 +11,7 @@ public class dataBaseConnection {
 		try {
 
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_db?useSSL=false&allowPublicKeyRetrieval=true", "root", "12212729Rk@");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_db?useSSL=false&allowPublicKeyRetrieval=true", "root", "root");
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -22,3 +22,4 @@ public class dataBaseConnection {
 	}
 
 }
+
